@@ -1,0 +1,15 @@
+
+%li
+  =video.title
+  %p
+    Monetized in:
+    -video.monetize[0].each do |country|
+      =country
+  %p
+    Free in:
+    -video.free[0].each do |country|
+      =country
+  %p
+    Blocked in:
+    -video.block[0].each do |country|
+      =country

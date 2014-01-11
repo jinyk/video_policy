@@ -1,4 +1,12 @@
 VideoPolicy::Application.routes.draw do
+
+  root 'videos#index'
+
+  get "videos/create"
+  get "videos/index"
+  get "videos/show"
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
