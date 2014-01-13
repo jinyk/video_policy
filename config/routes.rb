@@ -2,9 +2,11 @@ VideoPolicy::Application.routes.draw do
 
   root 'videos#index'
 
-  get "videos/create"
-  get "videos/index"
-  get "videos/show"
+  # get "videos/create"
+  # get "videos/index"
+  # get "videos/show"
+
+  resources :videos
 
 
   # The priority is based upon order of creation: first created -> highest priority.

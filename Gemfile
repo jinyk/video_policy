@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
 gem 'haml-rails', '>= 0.3.4', :group => :development
+gem "rspec-rails", "~> 2.14.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'

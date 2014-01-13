@@ -1,0 +1,12 @@
+
+/ %label{:for => "Title"} Video Title:
+/ %input{:type => "text", :name => "name", :class => "text"}
+
+=form_tag videos_path, :method => 'get', id: "search-form" do
+  %p
+    = select_tag :search_country, options_for_select([["us", "us"], ["mx", "mx"], ["in", "in"], ["cn", "cn"], ["tw", "tw"], ["ca", "ca"]], params[:search_country]), :prompt => "Select Country"
+    = select_tag :search_video, options_from_collection_for_select(@videos, 'key', 'key',params[:search_video]), :prompt => "Select Video"
+    = submit_tag "Search"
+
+
+
