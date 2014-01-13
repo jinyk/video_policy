@@ -6,6 +6,7 @@ gem 'haml-rails', '>= 0.3.4', :group => :development
 gem "rspec-rails", "~> 2.14.0"
 gem 'will_paginate', '> 3.0'
 gem "will_paginate_mongoid"
+gem 'pg'
 
 gem 'rails_12factor', group: :production
 
