@@ -8,7 +8,7 @@
 
 Video.delete_all
 
-for i in 0..9 do
+for i in 0..99 do
   countries = %i(mx ca cn in  tw us)
   countries.shuffle!
 	video = Video.new( key: "Vid0#{i}", title: "Title#{i}", monetize: [], free: [], block: [] )

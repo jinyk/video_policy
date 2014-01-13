@@ -1,7 +1,10 @@
-%h1 Video Policy Search
 
+%h1 Video Policy Search
 =render 'form'
 
-%ul
-  =render @videos
+#videos
+  %ul
+    =render @videos
 
+.page
+  = will_paginate

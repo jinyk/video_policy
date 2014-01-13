@@ -14,8 +14,6 @@ class Video
 
 
 	def self.search(country_query, video_query)
-		p video_query
-		# any_of({monetize: country_query.to_sym}, {free: country_query.to_sym}, {title: video_query})
 		if video_query.present?
 			where(key: video_query)
 		else

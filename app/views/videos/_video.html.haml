@@ -1,14 +1,22 @@
 %li
-  =video.title
-  %p
-    Monetized in:
-    -video.monetize.each do |country|
-      =country
-  %p
-    Free in:
-    -video.free.each do |country|
-      =country
-  %p
-    Blocked in:
-    -video.block.each do |country|
-      =country
+  .video-container
+    %strong
+      =video.title
+    %iframe{:allowscriptaccess => "always", :allowFullScreen => "true", :frameborder => "0", :height => "200", :src => "http://www.youtube.com/embed//FG0fTKAqZ5g", :title => "YouTube video player", :width => "300"}
+    .policies
+      %p
+        %strong
+          Monetized in:
+        -video.monetize.each do |country|
+          =country
+      %p
+        %strong
+          Free in:
+        -video.free.each do |country|
+          =country
+      %p
+        %strong
+          Blocked in:
+        -video.block.each do |country|
+          =country
+        
