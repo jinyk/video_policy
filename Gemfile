@@ -7,7 +7,7 @@ gem "rspec-rails", "~> 2.14.0"
 gem 'will_paginate', '> 3.0'
 gem "will_paginate_mongoid"
 
-
+gem 'rails_12factor', group: :production
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
