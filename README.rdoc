@@ -1,6 +1,6 @@
 == README
 
-Video Policy System
+=Video Policy System
 
 * Ruby version
  2.0.0
@@ -17,7 +17,11 @@ Video Policy System
  mogodb
 
 * My Approach
- -Seeded the database with 100 videos.
+ -Seeded the database with 100 videos
+ -Video model was given firlds of type array for free, monitze, block. The block field is indexed to make for faster queries.
+ -Six countries were distributed randomly throughout the policy fields
+ -A search form is used to filter the videos by both county and video.
+ -Pagination is used to make the video content more managable.
  -
 
  
