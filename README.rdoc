@@ -1,6 +1,6 @@
 == README
 
-=Video Policy System
+===Video Policy System
 
 * Ruby version
  2.0.0
