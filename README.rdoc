@@ -18,7 +18,7 @@
 
 * My Approach
  -Seeded the database with 100 videos.
- -Video model was given firlds of type array for free, monitze, block. The block field is indexed to make for faster queries.
+ -Video model was given fields of type array for free, monetize, block. The block field is indexed to make for faster queries.
  -Six countries were distributed randomly throughout the policy fields
  -A search form is used to filter the videos by both county and video.
  -Pagination is used to make the video content more managable.
@@ -26,5 +26,9 @@
 * Views
  -A single index page will cover all three requested views.
  -On page load all 100 videos will be displayed(with pagination).
+ -A filter for countries will show all videos viewable in the selected country.
+ -A filter for video primary key will show an individual country along with it's video policies.
+ 
+ 
 
  
