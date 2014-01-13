@@ -9,7 +9,9 @@ gem "will_paginate_mongoid"
 
 gem 'rails_12factor', group: :production
 
-gem 'sqlite3'
+group :development, :test do
+  gem 'sqlite3'
+end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
