@@ -25,9 +25,9 @@
  
 * Views
  -A single index page will cover all three requested views.
- -On page load all 100 videos will be displayed(with pagination).
+ -On page load all 100 videos will be displayed (with pagination).
  -A filter for countries will show all videos viewable in the selected country.
- -A filter for video primary key will show an individual country along with it's video policies.
+ -A filter for video primary key will show an individual country along with its video policies.
  
  
 
