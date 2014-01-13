@@ -5,7 +5,7 @@ Video Policy System
 * Ruby version
  2.0.0
 
-* Ruby version
+* Rails version
  4.0.2
 
 * Notable Gems
@@ -13,4 +13,11 @@ Video Policy System
  mongoid
  will_paginate_mongoid
  
+* Database
+ mogodb
+
+* My Approach
+ -Seeded the database with 100 videos.
+ -
+
  
